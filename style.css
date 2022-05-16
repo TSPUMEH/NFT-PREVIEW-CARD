@@ -1,0 +1,91 @@
+/* TAG ELEMENTS */
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+    text-align: justify;
+}
+
+h3 {
+    text-align: left;
+    color: #fff;
+}
+
+hr {
+    top: -23px;
+    display: flex;
+    position: relative;
+    border: 1px solid hsl(215, 32%, 27%);
+    width: 390px;
+    border-top: 0ch;
+}
+
+img {
+    border-radius: 15px;
+    justify-content: center;
+    width: 440px;
+    height: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* CLASS ELEMENTS */
+
+.card {
+    margin-right: auto;
+    margin-left: auto;
+    /* box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2); */
+    border-radius: 25px;
+    backdrop-filter: blur(14px);
+    background-color: hsl(216, 50%, 16%);
+    padding: 10px;
+    padding-bottom: 90px;
+    width: 490px;
+    height: 560px;
+    text-align: center;
+}
+
+.card-content {
+    align-items: center;
+    justify-content: inside;
+}
+
+.eth {
+    color: hsl(178, 100%, 50%)
+}
+
+.days {
+    position: relative;
+    text-align: right;
+    top: -35px;
+}
+
+.attribution {
+    color: #fff;
+    padding-top: 25px;
+}
+
+.icon {
+    border: 0.5px solid #fff;
+    display: flex;
+    border-radius: 15px;
+    height: 40px;
+    width: 10%;
+    float: left;
+}
+
+.icon-p {
+    position: relative;
+    top: 10px;
+}
+
+.utl {
+    position: relative;
+    top: -29px;
+}
